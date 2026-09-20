@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# Demo website: remove this block and page-level noindex directives only after
+# replacing fictional business information with verified customer details.

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Request HVAC Service Pittsburgh | Three Rivers Comfort</title>
+  <meta name="description" content="Request heating, cooling, heat pump, maintenance, indoor air quality, or emergency HVAC help with this Pittsburgh service-form website demonstration.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="canonical" href="https://hvac-site.vercel.app/request-service">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#07111f">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Request HVAC Service Pittsburgh | Three Rivers Comfort">
+  <meta property="og:description" content="A detailed service request and emergency HVAC intake flow for a Pittsburgh-area heating and cooling provider.">
+  <meta property="og:url" content="https://hvac-site.vercel.app/request-service">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1615774925655-a0e97fc85c14?auto=format&fit=crop&w=1600&q=84">
+  <meta property="og:image:alt" content="Service technician inspecting an electrical panel">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Request HVAC Service Pittsburgh">
+  <meta name="twitter:description" content="Test the detailed HVAC service request flow. Demo submissions are not transmitted.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1615774925655-a0e97fc85c14?auto=format&fit=crop&w=1600&q=84">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Request HVAC Service",
+    "url": "https://hvac-site.vercel.app/request-service",
+    "about": { "@type": "HVACBusiness", "name": "Three Rivers Comfort Co." }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="demo-bar">FireWorks ready-built website demo — fictional company and contact details. Forms do not transmit.</div>
+  <header class="site-header"><div class="container nav-wrap"><a class="brand" href="/" aria-label="Three Rivers Comfort home"><span class="brand-mark" aria-hidden="true">✦</span><span class="brand-copy">Three Rivers Comfort<small>Heating · Cooling · Air Quality</small></span></a><button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">☰</button><nav class="site-nav" id="site-nav" data-nav aria-label="Primary navigation"><a href="/">Home</a><a href="/services">Services</a><a href="/request-service" aria-current="page">Request Service</a><a class="nav-cta" href="tel:+14125550198">Call (412) 555-0198</a></nav></div></header>
+
+  <main id="main">
+    <section class="page-hero"><div class="container"><p class="eyebrow">Service request</p><h1>Tell us what your system is doing.</h1><p>A focused intake form gives the HVAC team the right information before they call. This storefront demo validates fields but does not send or store personal information.</p></div></section>
+
+    <section class="section section-soft"><div class="container request-layout">
+      <aside class="request-aside" id="emergency"><span class="emergency-label"><span class="pulse" aria-hidden="true"></span> Urgent HVAC issue</span><h2>Emergency request?</h2><p>For a real company, urgent requests can trigger a dedicated phone, text, email, CRM, or dispatch workflow.</p><div class="aside-row"><strong>Call the demo line</strong><span>(412) 555-0198</span></div><div class="aside-row"><strong>Example coverage</strong><span>Pittsburgh and South Hills communities</span></div><div class="aside-row"><strong>Safety first</strong><span>If you smell gas or a carbon-monoxide alarm sounds, leave immediately and call 911 or your utility provider.</span></div><p class="form-note">This demonstration is not monitored and does not provide emergency service.</p></aside>
+
+      <div class="form-card">
+        <p class="eyebrow">Request repair, maintenance, or an estimate</p>
+        <h2>HVAC service details</h2>
+        <p class="section-copy">Required fields are marked. No information is transmitted in this demo.</p>
+        <form class="form-grid" data-demo-form>
+          <label>First name<input name="firstName" autocomplete="given-name" required></label>
+          <label>Last name<input name="lastName" autocomplete="family-name" required></label>
+          <label>Email<input name="email" type="email" autocomplete="email" required></label>
+          <label>Phone<input name="phone" type="tel" autocomplete="tel" required></label>
+          <label>Service ZIP<input name="zip" inputmode="numeric" autocomplete="postal-code" pattern="[0-9]{5}" required></label>
+          <label>Preferred contact<select name="contactPreference" required><option value="">Choose one</option><option>Phone call</option><option>Text message</option><option>Email</option></select></label>
+          <fieldset class="full" style="border:0;padding:0;margin:0"><legend style="font-weight:850">What do you need help with?</legend><div class="check-grid">
+            <label class="check-option"><input type="checkbox" name="services" value="Heating repair" data-service="heating"> Heating repair</label>
+            <label class="check-option"><input type="checkbox" name="services" value="Cooling repair" data-service="cooling"> Cooling repair</label>
+            <label class="check-option"><input type="checkbox" name="services" value="Heat pump" data-service="heat-pump"> Heat pump</label>
+            <label class="check-option"><input type="checkbox" name="services" value="Maintenance" data-service="maintenance"> Maintenance</label>
+            <label class="check-option"><input type="checkbox" name="services" value="Air quality" data-service="air-quality"> Indoor air quality</label>
+            <label class="check-option"><input type="checkbox" name="services" value="Replacement estimate" data-service="replacement"> Replacement estimate</label>
+          </div></fieldset>
+          <label>How urgent is it?<select name="urgency" required><option value="">Choose one</option><option>No heat or cooling — urgent</option><option>System running poorly</option><option>Routine maintenance</option><option>Planning a replacement</option></select></label>
+          <label>Preferred timing<select name="timing" required><option value="">Choose one</option><option>As soon as available</option><option>Morning</option><option>Afternoon</option><option>Flexible</option></select></label>
+          <label class="full">System or equipment details<input name="equipment" placeholder="Age, fuel type, brand, or anything you know"></label>
+          <label class="full">What is happening?<textarea name="message" required placeholder="Describe symptoms, sounds, error codes, leaks, rooms affected, or recent changes."></textarea></label>
+          <label class="honeypot" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+          <div class="full"><button class="button button-primary" type="submit">Submit Service Request</button><p class="fine-print">By submitting a real version of this form, the customer would agree to be contacted about this request. Consent language and privacy links are finalized for the purchased site’s actual integrations.</p><div class="form-status" data-form-status role="status" aria-live="polite"></div></div>
+        </form>
+      </div>
+    </div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><div class="footer-grid"><div><a class="brand" href="/"><span class="brand-mark">✦</span><span class="brand-copy">Three Rivers Comfort<small>Demo HVAC company</small></span></a><p>This is a fictional FireWorks website demonstration. Replace all business details and claims before launch.</p></div><div><h3>Website</h3><div class="footer-links"><a href="/">Home</a><a href="/services">Services</a><a href="/request-service">Request Service</a></div></div><div><h3>Demo contact</h3><div class="footer-links"><a href="tel:+14125550198">(412) 555-0198</a><a href="mailto:service@example.com">service@example.com</a><span>Pittsburgh, Pennsylvania</span></div></div></div><div class="footer-bottom"><span>© <span data-year></span> Three Rivers Comfort Co. Demo.</span><span>Not a real HVAC provider. Forms are not monitored.</span></div></div></footer>
+  <script src="/assets/site.js" defer></script>
+</body>
+</html>

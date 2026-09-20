@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HVAC Repair Pittsburgh | Three Rivers Comfort Co.</title>
+  <meta name="description" content="Demo HVAC website for heating, air conditioning, heat pump, indoor air quality, and emergency service requests across Pittsburgh and the South Hills.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="canonical" href="https://hvac-site.vercel.app/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#07111f">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="HVAC Repair Pittsburgh | Three Rivers Comfort Co.">
+  <meta property="og:description" content="Heating, cooling, heat pump, maintenance, and emergency HVAC request website demo for the Pittsburgh area.">
+  <meta property="og:url" content="https://hvac-site.vercel.app/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1615774925655-a0e97fc85c14?auto=format&fit=crop&w=1600&q=84">
+  <meta property="og:image:alt" content="Service technician testing an electrical panel">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="HVAC Repair Pittsburgh | Three Rivers Comfort Co.">
+  <meta name="twitter:description" content="A conversion-focused HVAC website demo for Pittsburgh heating and cooling companies.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1615774925655-a0e97fc85c14?auto=format&fit=crop&w=1600&q=84">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1615774925655-a0e97fc85c14?auto=format&fit=crop&w=2200&q=86" fetchpriority="high">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HVACBusiness",
+    "name": "Three Rivers Comfort Co.",
+    "description": "Fictional HVAC website demonstration for Pittsburgh-area heating and cooling services.",
+    "url": "https://hvac-site.vercel.app/",
+    "telephone": "+1-412-555-0198",
+    "email": "service@example.com",
+    "priceRange": "$$",
+    "areaServed": ["Pittsburgh", "Mt. Lebanon", "Upper St. Clair", "Dormont", "Bridgeville", "Carnegie", "Crafton", "Scott Township", "Bethel Park"],
+    "address": { "@type": "PostalAddress", "addressLocality": "Pittsburgh", "addressRegion": "PA", "addressCountry": "US" },
+    "sameAs": []
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="demo-bar">FireWorks ready-built website demo — fictional company and contact details. Forms do not transmit.</div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="/" aria-label="Three Rivers Comfort home">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2v20M4 7l16 10M20 7 4 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+        <span class="brand-copy">Three Rivers Comfort<small>Heating · Cooling · Air Quality</small></span>
+      </a>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">☰</button>
+      <nav class="site-nav" id="site-nav" data-nav aria-label="Primary navigation">
+        <a href="/" aria-current="page">Home</a>
+        <a href="/services">Services</a>
+        <a href="/request-service">Request Service</a>
+        <a class="nav-cta" href="tel:+14125550198">Call (412) 555-0198</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Pittsburgh heating & cooling</p>
+          <h1>Comfort restored. <span>Without the runaround.</span></h1>
+          <p class="lede">A clear, local HVAC experience for repairs, replacements, seasonal maintenance, heat pumps, and indoor air quality throughout Pittsburgh and the South Hills.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="/request-service">Request Service <span aria-hidden="true">→</span></a>
+            <a class="button button-secondary" href="tel:+14125550198">Call the Demo Line</a>
+          </div>
+          <ul class="hero-points" aria-label="Service highlights">
+            <li>Heating & cooling</li>
+            <li>Repair & replacement</li>
+            <li>South Hills service area</li>
+          </ul>
+        </div>
+
+        <aside class="emergency-card" aria-labelledby="emergency-title">
+          <span class="emergency-label"><span class="pulse" aria-hidden="true"></span> Emergency request</span>
+          <h2 id="emergency-title">Need HVAC help now?</h2>
+          <p>Send the essentials so the service team can triage your heating or cooling issue. This demo is not monitored.</p>
+          <form class="compact-form" data-demo-form data-emergency-form>
+            <div class="split">
+              <label class="dark-label">Name<input name="name" autocomplete="name" required placeholder="Your name"></label>
+              <label class="dark-label">Phone<input name="phone" type="tel" autocomplete="tel" required placeholder="(412) 555-0123"></label>
+            </div>
+            <label class="dark-label">Service ZIP<input name="zip" inputmode="numeric" autocomplete="postal-code" pattern="[0-9]{5}" required placeholder="15220"></label>
+            <label class="dark-label">What is happening?<textarea name="issue" required placeholder="No heat, no cooling, unusual noise, leak..."></textarea></label>
+            <label class="honeypot" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+            <button class="button button-primary" type="submit">Submit Emergency Request</button>
+            <p class="form-note">Demo only. Nothing is sent or stored. If you smell gas or a carbon-monoxide alarm sounds, leave the building and call 911 or your utility provider—do not use this form.</p>
+            <div class="form-status" data-form-status role="status" aria-live="polite"></div>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Service promises">
+      <div class="container trust-grid">
+        <div class="trust-item"><strong>Clear next steps</strong><span>Know what happens after you request service.</span></div>
+        <div class="trust-item"><strong>Repair-first options</strong><span>Understand repair and replacement paths.</span></div>
+        <div class="trust-item"><strong>Local service area</strong><span>Built around Pittsburgh and the South Hills.</span></div>
+        <div class="trust-item"><strong>Mobile-ready forms</strong><span>Request help from any device.</span></div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-head">
+          <div><p class="eyebrow">Complete home comfort</p><h2>One call for heating, cooling, and air quality.</h2></div>
+          <p class="section-copy">From a furnace that stops on a January night to an AC system struggling through July, the site guides homeowners to the right service quickly.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card"><span class="service-icon" aria-hidden="true">H</span><h3>Heating Repair</h3><p>Furnace diagnostics, boiler concerns, uneven heat, ignition problems, and system troubleshooting.</p><a class="text-link" href="/request-service?service=heating">Request heating service →</a></article>
+          <article class="service-card"><span class="service-icon" aria-hidden="true">C</span><h3>Air Conditioning</h3><p>Cooling repair, airflow issues, refrigerant concerns, condensate problems, and replacement guidance.</p><a class="text-link" href="/request-service?service=cooling">Request cooling service →</a></article>
+          <article class="service-card"><span class="service-icon" aria-hidden="true">↻</span><h3>Heat Pumps</h3><p>Heat pump repair, installation, seasonal performance checks, and dual-fuel system options.</p><a class="text-link" href="/request-service?service=heat-pump">Explore heat pump service →</a></article>
+          <article class="service-card"><span class="service-icon" aria-hidden="true">M</span><h3>Preventive Maintenance</h3><p>Seasonal tune-ups that help identify wear, protect performance, and reduce surprise breakdowns.</p><a class="text-link" href="/request-service?service=maintenance">Plan a tune-up →</a></article>
+          <article class="service-card"><span class="service-icon" aria-hidden="true">A</span><h3>Indoor Air Quality</h3><p>Filtration, humidity control, ventilation, and practical recommendations for cleaner indoor air.</p><a class="text-link" href="/request-service?service=air-quality">Improve indoor air →</a></article>
+          <article class="service-card"><span class="service-icon" aria-hidden="true">N</span><h3>New Systems</h3><p>Right-sized replacement conversations for furnaces, air conditioners, and complete comfort systems.</p><a class="text-link" href="/request-service?service=replacement">Request an estimate →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split-section">
+        <div class="image-shell">
+          <img src="https://images.unsplash.com/photo-1667983453881-4992fe86ab1b?auto=format&fit=crop&w=1500&q=82" alt="Outdoor air conditioning equipment mounted neatly along a building" loading="lazy" decoding="async">
+          <div class="image-badge"><strong>Built for real service calls</strong><br><span>Clear choices, faster forms, and visible emergency guidance.</span></div>
+        </div>
+        <div>
+          <p class="eyebrow">Designed to convert local searches</p>
+          <h2>Useful answers before the technician arrives.</h2>
+          <p class="section-copy">Good HVAC websites reduce uncertainty. This layout explains services in plain language, captures the right job details, and keeps the next action visible on every screen.</p>
+          <ul class="feature-list">
+            <li><strong>Fast service routing.</strong> Repair, replacement, maintenance, and air-quality requests are separated clearly.</li>
+            <li><strong>Emergency-safe messaging.</strong> Urgent requests sit beside the main CTA with gas and carbon-monoxide guidance.</li>
+            <li><strong>Local SEO structure.</strong> Pittsburgh-area headings, service content, metadata, and HVACBusiness schema are built in.</li>
+            <li><strong>Ready for integration.</strong> Purchased sites can connect forms to email, CRM, scheduling, or call tracking.</li>
+          </ul>
+          <a class="button button-dark" href="/services">See All HVAC Services</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container split-section">
+        <div>
+          <p class="eyebrow">Pittsburgh service area</p>
+          <h2>Built for neighborhoods across the South Hills.</h2>
+          <p class="section-copy">The final customer version can be tailored to the company’s verified coverage area, office address, local phone number, Google Business Profile, and neighborhood-specific service pages.</p>
+          <div class="location-cloud" aria-label="Example service locations">
+            <span>Pittsburgh</span><span>Mt. Lebanon</span><span>Upper St. Clair</span><span>Bethel Park</span><span>Scott Township</span><span>Dormont</span><span>Bridgeville</span><span>Carnegie</span><span>Crafton</span>
+          </div>
+        </div>
+        <div class="image-shell">
+          <img src="https://images.unsplash.com/photo-1558358235-a0a93f68a52c?auto=format&fit=crop&w=1500&q=82" alt="Close view of a clean metal ventilation grille" loading="lazy" decoding="async">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cta-band">
+        <div><h2>Ready to get comfortable again?</h2><p>Tell the service team what your system is doing and when you need help.</p></div>
+        <div class="cta-actions"><a class="button button-light" href="/request-service">Request Service</a><a class="button button-secondary" href="tel:+14125550198">Call (412) 555-0198</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div><a class="brand" href="/"><span class="brand-mark">✦</span><span class="brand-copy">Three Rivers Comfort<small>Demo HVAC company</small></span></a><p>This is a fictional FireWorks website demonstration. Replace all business details, claims, service areas, and integrations before launch.</p></div>
+        <div><h3>Website</h3><div class="footer-links"><a href="/">Home</a><a href="/services">Services</a><a href="/request-service">Request Service</a></div></div>
+        <div><h3>Demo contact</h3><div class="footer-links"><a href="tel:+14125550198">(412) 555-0198</a><a href="mailto:service@example.com">service@example.com</a><span>Pittsburgh, Pennsylvania</span></div></div>
+      </div>
+      <div class="footer-bottom"><span>© <span data-year></span> Three Rivers Comfort Co. Demo.</span><span>Not a real HVAC provider. Forms are not monitored.</span></div>
+    </div>
+  </footer>
+  <script src="/assets/site.js" defer></script>
+</body>
+</html>

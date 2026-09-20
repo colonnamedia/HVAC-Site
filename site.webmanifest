@@ -1,0 +1,9 @@
+{
+  "name": "Three Rivers Comfort Co.",
+  "short_name": "Three Rivers Comfort",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#0b4f7a",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
