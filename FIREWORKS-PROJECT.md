@@ -6,7 +6,7 @@
 - Industry: Residential HVAC / heating and cooling
 - Market scaffold: Pittsburgh and South Hills, Pennsylvania
 - Repository: https://github.com/colonnamedia/HVAC-Site
-- Expected Vercel URL: https://hvac-site.vercel.app/
+- Production Vercel URL: https://hvac-site-delta.vercel.app/
 - Package: Tier 1 storefront website — $699.99 setup + $39.99/month hosting
 - Status: Fictional demo; not approved for search indexing or live lead delivery
 
