@@ -3,7 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const pages = ["index.html", "services.html", "request-service.html"];
+const pages = ["index.html", "services.html", "request-service.html", "heating-repair.html", "air-conditioning-repair.html", "heat-pumps.html", "service-areas.html"];
 const failures = [];
 
 for (const page of pages) {

@@ -7,12 +7,12 @@
 - Market scaffold: Pittsburgh and South Hills, Pennsylvania
 - Repository: https://github.com/colonnamedia/HVAC-Site
 - Production Vercel URL: https://hvac-site-delta.vercel.app/
-- Package: Tier 1 storefront website — $699.99 setup + $39.99/month hosting
+- Package: Standard storefront website — $1,499 build + $499/year hosting (or $59.99/month); domain $20/year; provider integrations quoted separately
 - Status: Fictional demo; not approved for search indexing or live lead delivery
 
 ## Build scope
 
-- Three static pages: Home, Services, Request Service
+- Seven static pages: Home, Services, Heating Repair, Air Conditioning Repair, Heat Pumps, Service Areas, Request Service
 - Distinct navy, cool-blue, and warm-orange visual system
 - Responsive navigation and mobile-first layouts
 - Homepage emergency request form positioned beside the primary CTA
@@ -47,4 +47,4 @@
 
 ## Agent prompt for a new project thread
 
-Continue the FireWorks project for the Three Rivers Comfort Co. HVAC website in `colonnamedia/HVAC-Site`. Read `FIREWORKS-PROJECT.md`, `README.md`, and `STOCK-PHOTOS.md` first. Preserve the three-page scope, Pittsburgh local-SEO scaffold, emergency safety language, mobile experience, demo-only non-transmitting forms, and noindex safeguards until verified customer information and an approved form provider are supplied. Run `npm run check` and `npm run build` before every deployment.
+Continue the FireWorks project for the Three Rivers Comfort Co. HVAC website in `colonnamedia/HVAC-Site`. Read `FIREWORKS-PROJECT.md`, `README.md`, and `STOCK-PHOTOS.md` first. Preserve the seven-page scope, Pittsburgh local-SEO scaffold, emergency safety language, mobile experience, demo-only non-transmitting forms, and noindex safeguards until verified customer information and an approved form provider are supplied. Run `npm run check` and `npm run build` before every deployment.
