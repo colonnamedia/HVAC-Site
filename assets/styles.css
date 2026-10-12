@@ -49,7 +49,7 @@ h3 { font-size: 1.28rem; }
 .section-copy { max-width: 700px; color: var(--muted); font-size: 1.05rem; }
 
 .hero { position: relative; overflow: hidden; color: #fff; background: var(--ink); }
-.hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(7,17,31,.98) 0%, rgba(7,17,31,.89) 47%, rgba(7,17,31,.34) 100%), url("https://images.unsplash.com/photo-1615774925655-a0e97fc85c14?auto=format&fit=crop&w=2200&q=86") center 32%/cover no-repeat; }
+.hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(7,17,31,.98) 0%, rgba(7,17,31,.89) 47%, rgba(7,17,31,.34) 100%), url("/assets/hero-fireworks-2026.webp") center 32%/cover no-repeat; }
 .hero::after { content: ""; position: absolute; inset: 0; opacity: .09; background-image: linear-gradient(rgba(255,255,255,.4) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.4) 1px, transparent 1px); background-size: 48px 48px; }
 .hero-grid { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(330px, .65fr); gap: 70px; align-items: center; min-height: 720px; padding-block: 72px; }
 .hero-copy { max-width: 750px; }
@@ -163,7 +163,7 @@ textarea { min-height: 116px; resize: vertical; }
   .site-nav { position: fixed; inset: 109px 14px auto; display: none; flex-direction: column; align-items: stretch; padding: 18px; border: 1px solid rgba(255,255,255,.15); border-radius: 18px; background: #07111f; box-shadow: var(--shadow); }
   .site-nav.is-open { display: flex; }
   .site-nav a { padding: 8px; }
-  .hero::before { background: linear-gradient(rgba(7,17,31,.94), rgba(7,17,31,.91)), url("https://images.unsplash.com/photo-1615774925655-a0e97fc85c14?auto=format&fit=crop&w=1400&q=82") 56% center/cover no-repeat; }
+  .hero::before { background: linear-gradient(rgba(7,17,31,.94), rgba(7,17,31,.91)), url("/assets/hero-fireworks-2026.webp") 56% center/cover no-repeat; }
   .hero-grid { padding-block: 54px; }
   .section { padding-block: 68px; }
   .section-head, .cta-band, .footer-bottom { align-items: flex-start; flex-direction: column; }
