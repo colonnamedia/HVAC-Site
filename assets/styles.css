@@ -107,7 +107,7 @@ textarea { min-height: 116px; resize: vertical; }
 .image-badge { position: absolute; left: 22px; bottom: 22px; max-width: 250px; padding: 16px 18px; border-radius: 16px; background: rgba(7,17,31,.9); color: #fff; }
 .feature-list { display: grid; gap: 16px; margin: 28px 0; padding: 0; list-style: none; }
 .feature-list li { position: relative; padding-left: 34px; }
-.feature-list li::before { content: "✓"; position: absolute; left: 0; top: 0; width: 23px; height: 23px; display: grid; place-items: center; border-radius: 50%; background: #dff5eb; color: #0c7650; font-size: .75rem; font-weight: 900; }
+.feature-list li::before { content: ""; position: absolute; left: 0; top: 7px; width: 8px; height: 8px; border-radius: 50%; background: #0c7650; }
 .location-cloud { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
 .location-cloud span { padding: 8px 13px; border: 1px solid var(--line); border-radius: 999px; background: #fff; color: #395166; font-size: .85rem; font-weight: 750; }
 
