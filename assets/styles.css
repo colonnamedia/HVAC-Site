@@ -182,3 +182,7 @@ textarea { min-height: 116px; resize: vertical; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
+
+/* Keep the hero focused on the image, short message and next step. */
+@media(min-width:961px){.hero-grid{display:block;min-height:620px;padding-block:152px 104px}.hero-copy{max-width:620px}.hero::before{background:linear-gradient(90deg,rgba(7,17,31,.91) 0%,rgba(7,17,31,.62) 34%,rgba(7,17,31,.04) 69%),url("/assets/hero-fireworks-2026.webp") 63% center/cover no-repeat}}
+@media(max-width:960px){.hero-grid{padding-bottom:56px}}
