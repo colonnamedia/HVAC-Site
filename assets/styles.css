@@ -63,7 +63,7 @@ h3 { font-size: 1.28rem; }
 .button-dark { background: var(--ink); color: #fff; }
 .button-light { background: #fff; color: var(--ink); }
 .hero-points { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 28px; padding: 0; list-style: none; color: #cfdae2; font-size: .9rem; font-weight: 700; }
-.hero-points li::before { content: "✓"; margin-right: 7px; color: #6de0ad; }
+.hero-points li::before { content: ""; display: inline-block; width: 7px; height: 7px; margin-right: 9px; border-radius: 50%; background: #6de0ad; vertical-align: middle; }
 
 .emergency-card { padding: 26px; border: 1px solid rgba(255,255,255,.2); border-radius: 26px; background: rgba(8,29,48,.88); box-shadow: 0 24px 60px rgba(0,0,0,.32); backdrop-filter: blur(14px); }
 .emergency-label { display: inline-flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 999px; background: rgba(255,113,51,.16); color: #ffb795; font-size: .72rem; font-weight: 900; text-transform: uppercase; letter-spacing: .12em; }
@@ -163,8 +163,10 @@ textarea { min-height: 116px; resize: vertical; }
   .site-nav { position: fixed; inset: 109px 14px auto; display: none; flex-direction: column; align-items: stretch; padding: 18px; border: 1px solid rgba(255,255,255,.15); border-radius: 18px; background: #07111f; box-shadow: var(--shadow); }
   .site-nav.is-open { display: flex; }
   .site-nav a { padding: 8px; }
-  .hero::before { background: linear-gradient(rgba(7,17,31,.94), rgba(7,17,31,.91)), url("/assets/hero-fireworks-2026.webp") 56% center/cover no-repeat; }
-  .hero-grid { padding-block: 54px; }
+  .hero::before { inset: 0 0 auto; height: 280px; background: linear-gradient(180deg, transparent 68%, rgba(7,17,31,.24)), url("/assets/hero-fireworks-2026.webp") 78% center/cover no-repeat; }
+  .hero::after { display: none; }
+  .hero-grid { padding-top: 306px; }
+  .hero-grid { padding-bottom: 54px; }
   .section { padding-block: 68px; }
   .section-head, .cta-band, .footer-bottom { align-items: flex-start; flex-direction: column; }
   .service-grid, .trust-grid, .form-grid, .check-grid, .footer-grid { grid-template-columns: 1fr; }
